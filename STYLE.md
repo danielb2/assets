@@ -801,3 +801,4 @@
   - Public interfaces should (not must) return a promise when no callback is provided
   - Promises should not be used internally
   - Only native promises are allowed. Third party promise implementations are not allowed
+  - Functions returning promises should be declared as `async`
